@@ -8,7 +8,72 @@
     <title>My personal website</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work and projects</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Paul stanley a passionate developer and designer. I love creating beautiful and functional websites.I am also very playfull.The reason i choose software development as a career choice ,is its ability to make one turn work into game and game into work. This webpage is gonna show you how i get to enjoy the software development space and possibly encourage you to hire me as your software developer.Other than my personal life , i have attended schools of the highest starndards for example JKUAT(it is in this institution that i started picking up my love for computers.)Having sayed all that i hope that you get to njoy the rest of my webpage.</p>
+    <img src="lion.jp.jpg"
+          alt="lion is my nickname"
+          title="this is what i see myself as"/>
+    <img src="20171216_154516.jpg"/>      
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <img src="clinic website.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>This was my first school based project. It was all about a website that helped people(mostly students)access their medical records and also help medical staff organise themselves better.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="bakery.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p></p>
+        </div>Take your love for fresh-baked goodness to the next level with my innovative bakery system website!  This platform, designed by a passionate baker like myself,  revolutionizes how you experience [Your Bakery Name].  High-resolution photos and detailed descriptions capture the essence of every handcrafted treat, while the intuitive interface makes navigating our offerings a delight.  The website's true brilliance lies in its seamless online ordering system,  developed with efficiency in mind.  Order your favorites for pickup or delivery, freeing you from wait times and allowing you to focus on what truly matters: savoring the delicious creations from Baker we.
+        
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Project description goes here.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
